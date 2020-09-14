@@ -1,0 +1,80 @@
+Section 1: So You've Installed IntelliJ IDEA Ultimate Edition
+1. Why I switched to IntelliJ IDEA in 2003 -
+   Analyze -> Inspect Code ..., Swing GUI Builder
+2. Superkey ALT+ENTER, fixes almost anything
+3. Switching between tool windows CMD+1, SHIFT+ESC     CRTL-J, Cmd+Shift+A, SHIFT+SHIFT, ALT+1, CMD+1, CMD+2, CMD+3
+4. Setting up autoscroll to/from source
+5. Creating a new ... in Project Tool Window CRTL-ENTER, CTRL-N, CRTL-ALT-ENTER, ALT-INSERT
+6. Live templates: psvm, sout, soutv, soutm, soutp, souf, serr iter,  fori, itco itar  CMD-J .var .field .if .for .sout to name some of them.
+7. Navigation with  and  and ^Click
+8. Jump to new line out of middle of code with SHIFT-ENTER
+9. Syntax aware selection because alt-arrows need two hands while cmd-(shift)-w you can do with your left hand :)
+10. Move code up / downn with SHIFT + Alt + UP DOWN
+
+Section 2: Now Quintuple Your Coding Speed
+11. Surround statements with: Ctrl + Alt + T  
+12. Select template J (customize with Editor->Live Template -> surround) Ctrl + Alt + J
+13. Error based coding: F2, followed by ALT and Tab/Enter9+
+14. Line based editing: CMD-D, CMD-X, CMD-V seldomly CMD-Y, CMD-SHIFT-B
+15. Column select editing (customized keymap)
+
+STRG-G Go
+Alt+J.
+1. CMD-T - Goes to corresponding unit-test (if exists ) or you can create a new one. 
+2. CMD-F12 - You can see the file structure of class (methods, etc) and you can search inside if you now some part of method name.
+https://stackoverflow.com/questions/26386079/intellij-column-selection-using-cursor-keys
+
+16. Presentation mode for speakers (customized keymap
+17. Reformatting code STRG-ALT-L - STRG-ALT-CMD-L and join line STRG-SHIFT-J
+18. Code and variable completion CTRL - Space
+19. SmartType completion  - just type and it magically figures out what you want to do STRG-SHIFT-Space
+20. SmartType code completion after New - 
+21. Commen/Uncomment current line - STRG / and STRG-CMD-/    ALT-ENTER
+22. Override/implement methods - CMD-O / CMD-I
+23. Copy class SHIFT-F5
+24. Rename class/method/field SHIFT-F6 CMD-9(Stashing?)
+25. Move class/method/field F6
+26. Camel prefix in code completion
+
+Section 3 - Refactor Like a Boss
+27. Introduce variable refactoring - STRG-ALT-V
+28. Extract Method - M
+29. Refactor - Change Signature
+30. Refactor - Inline
+31. Refactor - SafeDelete
+
+Section 4 - Inspector Clouseau at Your Service
+32. Analyze -> Inspect code
+33. Inspect Code: Finding declarations that could be more "private"
+34. Inspect code: final/non-final parmeters and local variables final
+35. Inspect code: Marking fields final
+36. Inspect code: Finding unused code
+37. Local History 
+38. Inspect code: Finding badly handled exceptions
+39. Inspect code: Migration to new Java versions
+40. Terminal
+41. Conclusion
+
+I mostly use cmd-e to navigate between recent files, you can just start typing in that list which is sorted by recency. And cmd-n for goto-class, cmd-shift-n for goto file (works also while IDEA is still indexing) and cmd-alt-shift-n for goto symbol which also includes fields and methods.
+
+For navigating to the file from the source, I use Option+F1, Enter or Option-F1, 1. Opt-F1 brings up the "Select In" dialog, enter selects the first entry which is "Project View". This also caters for many other navigation needs.
+
+also the good old advice from pragmatic programmer
+lookup the action you want to do in the menu, close the menu and use they keyboard-shortcut instead
+also works with typing what you want to do into cmd-shift-a "action popup"
+
+for all lists/trees: just start typing to jump around it also supports camel case selection ctrl-h for type hierarchy and ctrl-alt-h for call hierarchy cmd-shift-h for method hierarchy
+
+
+cmd-shift-backspace gets you to the last edit location, which is useful after browsing around a lot.
+Cmd+Alt+B
+
+Control + Q
+cmd-Shift-a
+
+cmd-y delete line 
+cmd-d duplicate line
+
+something that's very useful is ctrl-shift-j for joining lines esp. as it also fixes the code if you join the initialization of a variable to its declaration
+
+You could have mention cmd+shift+up/down This moves the line but not on row basis, but in the context where it is. The for loop you're moving would then move below the other for loop, not in to it
