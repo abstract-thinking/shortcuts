@@ -1,0 +1,8 @@
+Entpacken von tar.gz: tar -xvzf NAMEDERDATEI.tar.gz
+
+Einspielen von PUKI Zertifikate nach Java Update. Annahme pukirootca1.crt liegt im Downloads Verzeichnis.
+sudo keytool -import -trustcacerts -alias pukirootca -file ~/Downloads/pukirootca1.crt -keystore /usr/lib/jvm/java-8-oracle/jre/lib/security/cacerts -storepass changeit
+
+Ändern von Inhalt im Dateien auch in Verzeichnis
+find . -type f -print0 | xargs -0 sed -i 's/version-/1.0.35-/g'
+mvn:setVersion
