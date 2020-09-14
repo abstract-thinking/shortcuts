@@ -1,0 +1,56 @@
+Ubuntu 18.04:
+
+Source Navigation:
+ESC							Go to editor (from tool window)
+F12							Go back to previous tool window
+
+SHIFT + ESC 				Hide active or last active window
+
+STRG + B					Go to declaration (gleiche wie F4?)
+
+
+STRG + ALT + B				Go to implementation
+ALT + RIGHT/LEFT			Got to next/previous editor tab
+STRG + ALT + RIGHT/LEFT		Navigate back/foward (Wann)
+STRG + SHIFT + Backspace	Navigate to last edit location
+
+Double SHIFT				Search everywhere
+STRG + N					Go to classes
+STRG + SHIFT + N			Go to files
+STRG + SHIFT + ALT + N		Go to symbols
+STRG + SHIFT + A			Go to actions
+
+STRG + SHIFT + T			Go to tests
+
+ALT + UP/DOWN				Go to previous/next method
+STRG + [/]					Move to code block start / end
+
+STRG + G					Go to line [line][:column]
+
+ALT + HOME					Show navigation bar
+
+STRG + E					Recent opened files popup
+STRG + SHIFT + E			Recent changed files popup
+STRG + F12					File structure popup
+
+STRG + SHIFT + B			Go to type declaration
+SHIFT + U					Go to super-method / super-class
+
+STRG + H					Type hierarchy
+STRG + SHIFT + H			Method hierarchy
+STRG + ALT + H				Call hierarchy
+
+F2 + SHIFT F2				Next / previous highlighted error
+
+---
+STRG + SHIFT + F			Find in path
+
+STRG + P					Parameter info
+STRG + SHIFT + I			Open quick definition lookup
+
+Code Folding:
+
+STRG + .					Folding method
+
+TODO:
+STRG + ALT + S				Open settings view
